@@ -1,0 +1,23 @@
+cap_shape(bell).  cap_shape(conical).  cap_shape(convex).  cap_shape(flat).  cap_shape(knobbed).  cap_shape(sunken).
+cap_surface(fibrous).  cap_surface(grooves).  cap_surface(scaly).  cap_surface(smooth).
+cap_color(brown).  cap_color(buff).  cap_color(cinnamon).  cap_color(gray).  cap_color(green).  cap_color(pink).  cap_color(purple).  cap_color(red).  cap_color(white).  cap_color(yellow).
+bruises(bruises).  bruises(no).
+odor(almond).  odor(anise).  odor(creosote).  odor(fishy).  odor(foul).  odor(musty).  odor(none).  odor(pungent).  odor(spicy).
+gill_attachment(attached).  gill_attachment(descending).  gill_attachment(free).  gill_attachment(notched).
+gill_spacing(close).  gill_spacing(crowded).  gill_spacing(distant).
+gill_size(broad).  gill_size(narrow).
+gill_color(black).  gill_color(brown).  gill_color(buff).  gill_color(chocolate).  gill_color(gray).  gill_color(green).  gill_color(orange).  gill_color(pink).  gill_color(purple).  gill_color(red).  gill_color(white).  gill_color(yellow).
+stalk_shape(enlarging).  stalk_shape(tapering).
+stalk_root(bulbous).  stalk_root(club).  stalk_root(cup).  stalk_root(equal).  stalk_root(rhizomorphs).  stalk_root(rooted).  stalk_root(missing).
+stalk_surface_above_ring(fibrous).  stalk_surface_above_ring(scaly).  stalk_surface_above_ring(silky).  stalk_surface_above_ring(smooth).
+stalk_surface_below_ring(fibrous).  stalk_surface_below_ring(scaly).  stalk_surface_below_ring(silky).  stalk_surface_below_ring(smooth).
+stalk_color_above_ring(brown).  stalk_color_above_ring(buff).  stalk_color_above_ring(cinnamon).  stalk_color_above_ring(gray).  stalk_color_above_ring(orange).  stalk_color_above_ring(pink).  stalk_color_above_ring(red).  stalk_color_above_ring(white).  stalk_color_above_ring(yellow).
+stalk_color_below_ring(brown).  stalk_color_below_ring(buff).  stalk_color_below_ring(cinnamon).  stalk_color_below_ring(gray).  stalk_color_below_ring(orange).  stalk_color_below_ring(pink).  stalk_color_below_ring(red).  stalk_color_below_ring(white).  stalk_color_below_ring(yellow).
+veil_type(partial).  veil_type(universal).
+veil_color(brown).  veil_color(orange).  veil_color(white).  veil_color(yellow).
+ring_number(none).  ring_number(one).  ring_number(two).
+ring_type(cobwebby).  ring_type(evanescent).  ring_type(flaring).  ring_type(large).  ring_type(none).  ring_type(pendant).  ring_type(sheathing).  ring_type(zone).
+spore_print_color(black).  spore_print_color(brown).  spore_print_color(buff).  spore_print_color(chocolate).  spore_print_color(green).  spore_print_color(orange).  spore_print_color(purple).  spore_print_color(white).  spore_print_color(yellow).
+population(abundant).  population(clustered).  population(numerous).  population(scattered).  population(several).  population(solitary).
+habitat(grasses).  habitat(leaves).  habitat(meadows).  habitat(paths).  habitat(urban).  habitat(waste).  habitat(woods).
+

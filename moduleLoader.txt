@@ -1,0 +1,63 @@
+%Module Loading Starts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+:- use_module(aleph).
+:- if(current_predicate(use_rendering/1)).
+:- use_rendering(prolog).
+:- endif.
+:- aleph.
+:-style_check(-discontiguous).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Module Loading ends
+
+
+:- aleph_set(i,2).
+
+:- modeh(1,poisonous(+mushroom)).
+:- modeb(1,cap_shape(+mushroom,#cap_shape)).
+:- modeb(1,cap_surface(+mushroom,#cap_surface)).
+:- modeb(1,cap_color(+mushroom,#cap_color)).
+:- modeb(1,bruises(+mushroom,#bruises)).
+:- modeb(1,odor(+mushroom,#odor)).
+:- modeb(1,gill_attachment(+mushroom,#gill_attachment)).
+:- modeb(1,gill_spacing(+mushroom,#gill_spacing)).
+:- modeb(1,gill_size(+mushroom,#gill_size)).
+:- modeb(1,gill_color(+mushroom,#gill_color)).
+:- modeb(1,stalk_shape(+mushroom,#stalk_shape)).
+:- modeb(1,stalk_root(+mushroom,#stalk_root)).
+:- modeb(1,stalk_surface_above_ring(+mushroom,#stalk_surface_above_ring)).
+:- modeb(1,stalk_surface_below_ring(+mushroom,#stalk_surface_below_ring)).
+:- modeb(1,stalk_color_above_ring(+mushroom,#stalk_color_above_ring)).
+:- modeb(1,stalk_color_below_ring(+mushroom,#stalk_color_below_ring)).
+:- modeb(1,veil_type(+mushroom,#veil_type)).
+:- modeb(1,veil_color(+mushroom,#veil_color)).
+:- modeb(1,ring_number(+mushroom,#ring_number)).
+:- modeb(1,ring_type(+mushroom,#ring_type)).
+:- modeb(1,spore_print_color(+mushroom,#spore_print_color)).
+:- modeb(1,population(+mushroom,#population)).
+:- modeb(1,habitat(+mushroom,#habitat)).
+
+:- determination(poisonous/1,cap_shape/2).
+:- determination(poisonous/1,cap_surface/2).
+:- determination(poisonous/1,cap_color/2).
+:- determination(poisonous/1,bruises/2).
+:- determination(poisonous/1,odor/2).
+:- determination(poisonous/1,gill_attachment/2).
+:- determination(poisonous/1,gill_spacing/2).
+:- determination(poisonous/1,gill_size/2).
+:- determination(poisonous/1,gill_color/2).
+:- determination(poisonous/1,stalk_shape/2).
+:- determination(poisonous/1,stalk_root/2).
+:- determination(poisonous/1,stalk_surface_above_ring/2).
+:- determination(poisonous/1,stalk_surface_below_ring/2).
+:- determination(poisonous/1,stalk_color_above_ring/2).
+:- determination(poisonous/1,stalk_color_below_ring/2).
+:- determination(poisonous/1,veil_type/2).
+:- determination(poisonous/1,veil_color/2).
+:- determination(poisonous/1,ring_number/2).
+:- determination(poisonous/1,ring_type/2).
+:- determination(poisonous/1,spore_print_color/2).
+:- determination(poisonous/1,population/2).
+:- determination(poisonous/1,habitat/2).
+
+
+

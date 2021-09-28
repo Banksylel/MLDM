@@ -1,0 +1,75 @@
+By: Ryan B, Charlie B, Adlan E, Chris E, Chris J, Brian N
+
+Read Mars_Report_MLDM.pdf for the full report and individual commitments to the project
+
+
+====================================================================================
+keep all unzipped files in the same folder to avoid issues.
+
+To run visualisation and exploration Notebooks:
+1. Check that both the original datasets, both pre-processed datasets, and the exploration/visualisation .ipynb files are in the same location.
+2. Run the exploration notebooks as you see fit. :)
+
+To run a model Notebooks:
+1. Check that all ipynb notebooks, datasets, and supporting files, are in the same location.
+2. Run all of Final-PreProcessing.ipynb once to save a new preprocessed datasets. (pre processed datasets is also in the zip, if you do not want to run it)
+3. Run the model .ipynb notebooks as you see fit.
+(* Some Model Notebooks Have Custom Pre-Processing Built Into Them, But Should Not Be Affected By The Above Procedure*)
+(* You Do Not Need To Re-Run The Pre-Processing After Each Model *)
+
+To run the Relational Model Notebook:
+1. Check that Relational Model.ipynb, Datasets-Convert2Relational-new.ipynb, and Supporting files are in the same location.
+2. Run all of Datasets-Convert2Relational-new.ipynb notebook to convert the mushroom dataset into relational form as mushrooms.pl (mushrooms.pl is included in the zip, if you do not want to run it)
+3. Change theory.txt to contain a queery you want the model to return. (is currently set to return all the rules of a poisonous mushroom)
+4. Run the Relational Model.ipynb.
+
+================================= MODELS ==========================================
+File						Description
+----						-----------
+ClusteringModel.ipynb				Clustering Model notebook for both datasets	
+Instanced Based Learning - KNN.ipynb		K-nearest neighbour models notebook for both datasets
+mushroomDecisionTrees.ipynb			Mushrooms Decision Tree model notebook
+MushroomSVM.ipynb				Mushrooms SVM model notebook
+Mushrooms-NN.ipynb				Mushrooms neural network model notebook	
+Relational Model.ipynb				Mushrooms relational model notebook 
+wineDecisionTrees.ipynb				Wine decision tree model notebook
+wine-NN.ipynb					Wine neural network model notebook
+WineQualitySVM.ipynb				Wine SVM model notebook
+bayesianModels.ipynb				Bayesian model notebook	for both datasets
+
+================================= DATA ==========================================
+
+File						Description
+----						-----------	
+mushrooms.csv					Original mushroom data
+newMushroom.csv					Pre-processed mushroom data
+newWine.csv					Pre-processed wine data
+winequalityN.csv				Original wine dataset
+
+================================= DATA EXPLORATION/VISUALISATION AND PRE-PROCESSING =================
+
+File						Description
+----						-----------	
+Final-PreProcessing.ipynb			Pre-processes both datasets, and expots new pre-processed csv datasets
+Mushroom feature distribution plots.ipynb	Mushroom feature distribution plots
+Mushroom Heatmaps.ipynb				Mushroom heatmaps notebook
+Outlier boxplots.ipynb				Wine outlier boxplots notebook
+Wine Pairplots.ipynb				Wine pairplots notebook	
+
+================================= SHARED FUNCTIONS ===============================
+
+File						Description
+----						-----------
+Binning Functions.ipynb				Shared binning functions notebook
+
+
+================================= FILES SUPPORTING RELATIONAL LEARNING ===========
+
+File						Description
+----						-----------
+aleph.pl					ALEPH ILP model
+Datasets-Convert2Relational-new.ipynb		Script to convert mushroom data to relational form
+moduleLoader.txt				File used by convert2relational to add a loader, modeh, modebm and determination clauses 
+mushrooms.pl					Final mushroom relational dataset output, after running conversion script
+mushCharacteristics.txt				File used by convert2relational to add background knowledge about mushroom characteristics
+theory.txt					File used by convert2relational to query the dataset.
